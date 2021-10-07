@@ -3,25 +3,32 @@ font-size: 20px;
 color: white;
 }
 
+header {
+    text-align: center;
+}
+
 body {
     background-color: black;
 }
 .title {
     border-bottom: 2px solid white;
+    text-align: center;
 }
 
 .link {
     display: inline-block;
-}
+   }
 
-.image ul {
-    list-style: none;
-    color: blue;
+.image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
 }
 
 .image li {
     display: inline-block;
-    }
+}
 
 a {
     color: rgb(5, 152, 172);
